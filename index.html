@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events List 🥳</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Submit a New Event:</h1>
+    <form id="addEvent">
+      <label>
+        Name
+        <input type="text" name="eventName" />
+      </label>
+      <label>
+        Description
+        <input type="text" name="description" />
+      </label>
+      <label>
+        Date
+        <input type="datetime-local" name="date" />
+      </label>
+      <label>
+        Location
+        <input type="text" name="location" />
+      </label>
+      <button type="submit">Add Event</button>
+    </form>
+    <ul id="events"></ul>
+  </body>
+</html>
